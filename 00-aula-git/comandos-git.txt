@@ -1,1 +1,7 @@
-git init -> inicializar um repositório
+git init -> inicializar um repositóriokkj
+
+git clone <link do repositório> -> realiza o download de um repositório
+
+git status -> mostra o status do repositório
+
+git add <nome do arquivo> -> adiciona todos os arquivos (untracked e modified) para o próximo commit
