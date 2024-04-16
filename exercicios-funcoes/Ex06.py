@@ -3,14 +3,12 @@
 def conversor(val):
     if(val == 100):
         return "A"
-    elif(val > 89):
-        return "B"
     elif(val > 79):
-        return "C"
+        return "B"
     elif(val > 69):
-        return "D"
+        return "C"
     elif(val > 59):
-        return "E"
+        return "D"
     else:
         return "F"
     
