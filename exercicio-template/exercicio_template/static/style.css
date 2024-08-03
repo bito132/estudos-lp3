@@ -1,0 +1,66 @@
+#navegacao{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 30px;
+}
+
+#titulo_pagina{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#linha{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-left: 50%;
+    width: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 14px;
+    height: 5px;
+}
+#desenvolvimento{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dados{
+    border: solid black 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.titulo_dados{
+    border-bottom: solid black 1px;
+    padding-left: 10px;
+}
+.conteudo_dados{
+    padding-left: 10px;
+}
+#botao_contato{
+    margin-top: 15px;
+    --margin-left: 29%;
+    --transform: translateX(-55%);
+    margin-left: 20%;
+}
+
+#texto_da_main{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    width: 45%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}

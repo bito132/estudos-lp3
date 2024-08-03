@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}Contato{% endblock %}
+
+{% block titulo_pagina %}Contato{% endblock %}
+
+{% block content %}
+
+<div class="dados">
+    <p class="titulo_dados">
+        CPF
+    </p>
+    <p class="conteudo_dados">
+        {{cpf}}
+    </p>
+</div>
+<div class="dados">
+    <p class="titulo_dados">
+        CNPJ
+    </p>
+    <p class="conteudo_dados">
+        {{cnpj}}
+    </p>
+</div>
+
+<form action="/contato">
+    <button type="submit" id="botao_contato">Gerar outros dados de contato</button>
+</form>
+{% endblock %}

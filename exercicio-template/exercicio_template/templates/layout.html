@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='style.css')}}">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <ul id="navegacao">
+        <li><a href="/">Home page</a></li>
+        <li><a href="/contato">Contato</a></li>
+        <li><a href="/produtos">Produtos</a></li>
+    </ul>
+
+    <h1 id="titulo_pagina">
+        {% block titulo_pagina %}
+        {% endblock %}
+    </h1>
+
+    {% block content %}
+    {% endblock %}
+    
+    <footer>
+        <div id="linha">
+        </div>
+        <p id="desenvolvimento">Desenvolvido por João Vitor, 2024</p>
+        <ul id="navegacao">
+            <li><a href="/termos_de_uso" target="_blank">termos de uso</a></li>
+            <li><a href="/politica_privacidade " target="_blank">política de privacidade</a></li>
+            <li><a href="/como_utilizar" target="_blank">como utilizar</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

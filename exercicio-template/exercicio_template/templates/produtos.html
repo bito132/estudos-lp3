@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}Produtos{% endblock %}
+
+{% block titulo_pagina %}Produtos{% endblock %}
+
+{% block content %}
+
+    {% if lista_produtos %}
+    <p id="titulo_pagina">Confira nossos produtos abaixo</p>
+
+        {% for produto in lista_produtos %}
+            <h2 id="titulo_pagina">{{produto.nome}}</h2>
+            <div id="titulo_pagina">
+                <p>{{produto.descricao}}</p>
+            </div>
+        {% endfor %}
+
+    {% else %}
+        <p id="titulo_pagina">Aguarde o lançamento dos produtos</p>
+
+    {% endif %}
+
+{% endblock %}
